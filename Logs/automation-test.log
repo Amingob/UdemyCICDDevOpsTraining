@@ -1,0 +1,26 @@
+
+2026-09-11 13:14:34 [main] INFO  basetest.BaseTest - Log4j initialized successfully.
+2026-09-11 13:14:37 [main] INFO  basetest.BaseTest - Test has Started
+2026-09-11 13:14:39 [main] INFO  basetest.BaseTest - Test has finished
+2026-09-11 13:14:40 [main] INFO  basetest.BaseTest - Log4j terminated successfully.
+2026-09-11 13:14:48 [main] INFO  basetest.BaseTest - Log4j initialized successfully.
+2026-09-11 13:14:51 [main] INFO  basetest.BaseTest - Test has Started
+2026-09-11 13:14:53 [main] INFO  basetest.BaseTest - Test has finished
+2026-09-11 13:14:54 [main] INFO  basetest.BaseTest - Log4j terminated successfully.
+2026-09-11 13:15:27 [main] INFO  basetest.BaseTest - Log4j initialized successfully.
+2026-09-11 13:15:33 [main] INFO  basetest.BaseTest - Test has Started
+2026-09-11 13:15:35 [main] INFO  basetest.BaseTest - Test has finished
+2026-09-11 13:15:36 [main] INFO  basetest.BaseTest - Log4j terminated successfully.
+2026-09-11 13:15:47 [main] INFO  basetest.BaseTest - Log4j initialized successfully.
+2026-09-11 13:15:52 [main] INFO  basetest.BaseTest - Test has Started
+2026-09-11 13:15:53 [main] INFO  basetest.BaseTest - Test has finished
+2026-09-11 13:15:54 [main] INFO  basetest.BaseTest - Log4j terminated successfully.
+2026-10-01 13:22:08 [main] INFO  basetest.BaseTest - Log4j initialized successfully.
+2026-10-01 13:22:26 [main] INFO  basetest.BaseTest - Test has Started
+2026-10-01 13:22:27 [main] INFO  basetest.BaseTest - Log4j terminated successfully.
+2026-10-01 13:28:39 [main] INFO  basetest.BaseTest - Log4j initialized successfully.
+2026-10-01 13:28:59 [main] INFO  basetest.BaseTest - Test has Started
+2026-10-01 13:29:02 [main] INFO  basetest.BaseTest - Test has Started
+2026-10-01 13:29:04 [main] INFO  basetest.BaseTest - Test has Started
+2026-10-01 13:29:05 [main] INFO  basetest.BaseTest - Test has Started
+2026-10-01 13:29:05 [main] INFO  basetest.BaseTest - Log4j terminated successfully.
