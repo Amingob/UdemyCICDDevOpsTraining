@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 
 public class LoginTest extends BaseTest {
 
-    @Test(priority = 1)
+    @Test
     public void loginTestWithValidUserNameAndValidPassword() throws InterruptedException {
 
         wdriver.get("https://demo.guru99.com/V4/");
@@ -28,7 +28,7 @@ public class LoginTest extends BaseTest {
         Thread.sleep(1000);
     }
 
-    @Test(priority = 2)
+    @Test
     public void loginTestWithInValidUserNameAndValidPassword() throws InterruptedException {
 
         wdriver.get("https://demo.guru99.com/V4/");
@@ -51,7 +51,7 @@ public class LoginTest extends BaseTest {
         Thread.sleep(1000);
     }
 
-    @Test(priority = 3)
+    @Test
     public void loginTestWithValidUserNameAndInValidPassword() throws InterruptedException {
 
         wdriver.get("https://demo.guru99.com/V4/");
@@ -75,7 +75,7 @@ public class LoginTest extends BaseTest {
 
     }
 
-    @Test(priority = 4)
+    @Test
     public void loginTestWithInValidUserNameAndInValidPassword() throws InterruptedException {
 
         wdriver.get("https://demo.guru99.com/V4/");
@@ -97,7 +97,7 @@ public class LoginTest extends BaseTest {
         Thread.sleep(1000);
     }
 
-    @Test(priority = 5)
+    @Test
     public void loginTestWithNoUserNameAndNoPassword() throws InterruptedException {
 
         wdriver.get("https://demo.guru99.com/V4/");

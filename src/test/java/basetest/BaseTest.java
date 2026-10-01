@@ -4,7 +4,9 @@ import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
 
 import pages.LoginPage;
@@ -17,14 +19,14 @@ import java.nio.file.StandardOpenOption;
 
 public class BaseTest {
 
-    public String userName = "mngr665923";
-    public String passWord = "YvEbAqa";
+    public String userName = "mngr668080";
+    public String passWord = "YzUtuzE";
 
     public WebDriver wdriver;
     public LoginPage loginPage;
     public static Logger logger;
 
-    @BeforeTest
+    @BeforeMethod
     public void launchBrowser(){
 
         System.setProperty("webdriver.chrome.driver","/Drivers/chromedriver.exe");
@@ -52,7 +54,7 @@ public class BaseTest {
         logger.info("Log4j initialized successfully.");
     }
 
-    @AfterTest
+    @AfterMethod
     public void closeBrowser() throws InterruptedException {
         logger.info("Log4j terminated successfully.");
         wdriver.quit();

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/aaaaaSeleniumIntellijFrameworks/UdemyCICDToolsDevOpsTraining/UdemyCICDToolsDevOpsTraining">
+        <classes>
+            <class name="testcases.LoginTest">
+                <methods>
+                    <include name="loginTestWithValidUserNameAndValidPassword"/>
+                    <include name="loginTestWithInValidUserNameAndValidPassword"/>
+                    <include name="loginTestWithValidUserNameAndInValidPassword"/>
+                    <include name="loginTestWithInValidUserNameAndInValidPassword"/>
+                    <include name="loginTestWithNoUserNameAndNoPassword"/>
+                </methods>
+            </class>
+            <class name="testcases.LoginTest1">
+                <methods>
+                    <include name="loginTestWithValidUserNameAndValidPassword"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
